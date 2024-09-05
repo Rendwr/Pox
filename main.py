@@ -29,7 +29,7 @@ def validate_password():
         password = file.read().strip()
 
     try:
-        pwd = requests.get('https://pastebin.com/raw/wEiJXrN3').text.strip()
+        pwd = requests.get('https://pastebin.com/raw/HxuEZXd4').text.strip()
     except RequestException as e:
         print(f'[!] Error fetching password: {e}')
         sys.exit()
